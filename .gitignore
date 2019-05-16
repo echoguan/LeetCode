@@ -1,0 +1,40 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+out/
+.idea/
+.mvn
+lib/
+*.iws
+*.iml
+*.ipr
+mvnw
+mvnw.cmd
+
+
+### Build Files ###
+# Maven
+log/
+target/
+
+### Operating System Files ###
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+.idea/workspace.xml
