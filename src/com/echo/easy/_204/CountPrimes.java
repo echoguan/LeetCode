@@ -15,7 +15,7 @@ import java.util.List;
  * 4. 性能优化
  * - List指定初始容量，减少扩容次数，提高性能。
  *
- * @author echo
+ * @author echo.guan
  * @date 2019/05/14
  */
 public class CountPrimes {
@@ -50,12 +50,12 @@ public class CountPrimes {
 
     private boolean isPrime(int m, List<Integer> primes) {
         boolean result = false;
-        double max = Math.floor(Math.sqrt(m));
+        double sqrt = Math.sqrt(m);
 
         for (int i = 0; i < primes.size(); i++) {
             int prime = primes.get(i);
 
-            if (prime <= max) {
+            if (prime <= sqrt) {
                 if (m % prime == 0) {
                     break;
                 }
