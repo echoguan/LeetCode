@@ -1,6 +1,6 @@
 package com.echo;
 
-import com.echo.easy._204.CountPrimesEeatosthese;
+import com.echo.leetcode.easy._204.CountPrimesEeatosthese;
 
 public class Main {
 

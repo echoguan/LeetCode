@@ -1,4 +1,4 @@
-package com.echo.easy._204;
+package com.echo.leetcode.easy._204;
 
 import java.util.ArrayList;
 import java.util.List;
