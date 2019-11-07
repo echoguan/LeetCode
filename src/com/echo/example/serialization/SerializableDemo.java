@@ -29,7 +29,7 @@ public class SerializableDemo {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            IOUtils
+//            IOUtils
         }
     }
 
