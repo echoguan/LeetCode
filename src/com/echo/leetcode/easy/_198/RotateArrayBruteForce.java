@@ -11,7 +11,7 @@ package com.echo.leetcode.easy._198;
  * @author echo.guan
  * @date 2019/11/07
  */
-public class RotateArray_BruteForce {
+public class RotateArrayBruteForce {
     public void rotate(int[] nums, int k) {
         if (nums == null || nums.length == 0) {
             return;
