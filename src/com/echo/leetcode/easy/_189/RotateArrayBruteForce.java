@@ -1,4 +1,4 @@
-package com.echo.leetcode.easy._198;
+package com.echo.leetcode.easy._189;
 
 /**
  * Brute Force [Time Limit Exceeded]
