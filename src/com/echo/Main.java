@@ -1,11 +1,11 @@
 package com.echo;
 
-import com.echo.leetcode.easy._189.RotateArrayReverse;
+import com.echo.leetcode.easy._344.ReverseString;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
-        new RotateArrayReverse().rotate(nums, 8);
+        char[] input = new char[]{};
+        new ReverseString().reverseString(input);
     }
 }
