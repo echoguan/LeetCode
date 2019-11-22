@@ -1,11 +1,11 @@
 package com.echo;
 
-import com.echo.leetcode.easy._344.ReverseString;
+import com.echo.leetcode.easy._136.SingleNumberUsingXOR;
 
 public class Main {
 
     public static void main(String[] args) {
-        char[] input = new char[]{};
-        new ReverseString().reverseString(input);
+        int[] input = new int[]{4,1,2,1,2};
+        System.out.println(new SingleNumberUsingXOR().singleNumber(input));
     }
 }
