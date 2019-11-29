@@ -1,11 +1,10 @@
 package com.echo;
 
-import com.echo.leetcode.easy._136.SingleNumberUsingList;
+import com.echo.leetcode.easy._412.FizzBuzzUsingHashMap;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] input = new int[]{2, 2, 1};
-        System.out.println(new SingleNumberUsingList().singleNumber(input));
+        System.out.println(new FizzBuzzUsingHashMap().fizzBuzz(15).toString());
     }
 }
