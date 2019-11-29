@@ -1,11 +1,11 @@
 package com.echo;
 
-import com.echo.leetcode.easy._136.SingleNumberUsingSort;
+import com.echo.leetcode.easy._136.SingleNumberUsingList;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] input = new int[]{4,1,2,1,2};
-        new SingleNumberUsingSort().singleNumber(input);
+        int[] input = new int[]{2, 2, 1};
+        System.out.println(new SingleNumberUsingList().singleNumber(input));
     }
 }
