@@ -25,13 +25,9 @@ public class InorderTraversalRecursive {
 
     private void getValue(TreeNode root, List<Integer> result) {
         if (root != null) {
-            if (root.left != null) {
-                getValue(root.left, result);
-            }
+            getValue(root.left, result);
             result.add(root.val);
-            if (root.right != null) {
-                getValue(root.right, result);
-            }
+            getValue(root.right, result);
         }
     }
 }
