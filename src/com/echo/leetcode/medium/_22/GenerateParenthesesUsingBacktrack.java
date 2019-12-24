@@ -3,7 +3,7 @@ package com.echo.leetcode.medium._22;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateParentheses {
+public class GenerateParenthesesUsingBacktrack {
     public List<String> generateParenthesis(int n) {
         if (n <= 0) {
             return null;
