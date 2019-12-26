@@ -1,23 +1,13 @@
 package com.echo.leetcode.easy._206;
 
-/**
- * Reverse Linked List using iterative
- *
- * - Time complexity: O(n)
- * - Space complexity: 1
- *
- * @author echo.guan
- */
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
-        ListNode pre = null;
+        if (head.next == null || head == null) return head;
 
-        while (head != null) {
-            ListNode nextTemp = head.next;
-            head.next = pre;
-            pre = head;
-            head = nextTemp;
-        }
-        return pre;
+        ListNode p = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return p;
     }
 }
