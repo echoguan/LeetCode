@@ -1,14 +1,13 @@
 package com.echo;
 
-import com.echo.leetcode.medium._22.GenerateParenthesesUsingBacktrack;
-import com.echo.leetcode.medium._22.GenerateParenthesesUsingBacktrackAndStringBuilder;
+import com.echo.leetcode.medium._347.TopFrequentElements;
 
-import java.util.List;
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
-        List<String> result = new GenerateParenthesesUsingBacktrackAndStringBuilder().generateParenthesis(3);
-        System.out.println(result.toString());
+        int[] nums = new int[]{2, 2, 2, 2, 2, 1, 1, 1, 3};
+        System.out.println(new TopFrequentElements().topKFrequent(nums, 2));
     }
 }

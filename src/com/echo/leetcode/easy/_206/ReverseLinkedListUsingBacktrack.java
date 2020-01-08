@@ -1,6 +1,6 @@
 package com.echo.leetcode.easy._206;
 
-public class ReverseLinkedList {
+public class ReverseLinkedListUsingBacktrack {
     public ListNode reverseList(ListNode head) {
         if (head.next == null || head == null) return head;
 
